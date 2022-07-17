@@ -9,6 +9,7 @@
 #define _CRT_SECURE_NO_DEPRECATE
 #pragma warning (disable : 4996)
 
+// The DLL's name was changed from tmpXXXX to "vresion", because that's the legitimate DLL's changed name.
 #pragma comment(linker, "/export:GetFileVersionInfoA=vresion.GetFileVersionInfoA,@1")
 #pragma comment(linker, "/export:GetFileVersionInfoByHandle=vresion.GetFileVersionInfoByHandle,@2")
 #pragma comment(linker, "/export:GetFileVersionInfoExA=vresion.GetFileVersionInfoExA,@3")
