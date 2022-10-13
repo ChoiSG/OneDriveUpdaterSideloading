@@ -2,7 +2,7 @@
 This repo contains source code for DLL sideloading the `version.dll` for OneDriveUpdater.exe/OneDriveStandaloneUpdater.exe. 
 The payload is based on the subroutines outlined in the PaloAltoNetworks Unit42's [blog post](https://unit42.paloaltonetworks.com/brute-ratel-c4-tool/). 
 
-My blog post regarding this payload: 
+My blog post regarding this payload: https://blog.sunggwanchoi.com/recreating-an-iso-payload-for-fun-and-no-profit/
 
 ## version 
 Modified source code from the proxy DLL created by [SharpDLLProxy](https://github.com/Flangvik/SharpDllProxy) from [Flangvik](https://twitter.com/Flangvik).
